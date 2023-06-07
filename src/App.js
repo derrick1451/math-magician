@@ -1,11 +1,10 @@
-
 import './App.css';
 import Calcultor from './module/calculator';
 
 function App() {
   return (
     <div className="container">
-     <Calcultor/>
+      <Calcultor />
     </div>
   );
 }
