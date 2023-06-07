@@ -17,6 +17,7 @@
   align-content: center;
 }
 
+<<<<<<< HEAD
 .screen {
   grid-column: 1/-1;
   border: 1px solid red;
@@ -40,4 +41,14 @@
 
 .color-change {
   background-color: rgb(245, 165, 16) !important;
+=======
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+>>>>>>> dev
 }
