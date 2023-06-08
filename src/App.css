@@ -26,7 +26,7 @@
   background-color: rgba(202, 83, 83, 0.703);
 }
 
-.wrapper > div {
+.wrapper > button {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 10px 0;
