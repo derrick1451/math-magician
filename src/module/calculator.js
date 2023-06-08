@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 export default function Calcultor() {
-  const [value, setValue] = useState(0);
   const [calculation, setCalculation] = useState({
-    total: null,
+    total: 0,
     next: null,
     operation: null,
   });
@@ -12,18 +11,15 @@ export default function Calcultor() {
   function HandleClick(value) {
     const update = calculate(calculation, value);
     setCalculation(update);
-    if (update.total !== null) {
-      setValue(update.total);
-    } else if (update.next !== null) {
-      setValue(update.next);
-    } else {
-      setValue('0');
-    }
   }
 
   return (
     <div className="wrapper">
-      <div className="screen">{value}</div>
+      <div className="screen">
+        {calculation.total}
+        {calculation.operation}
+        {calculation.next}
+      </div>
       <button type="button" onClick={() => { HandleClick('AC'); }} className="operator">AC</button>
       <button type="button" onClick={() => { HandleClick('+/-'); }} className="operator">+/-</button>
       <button type="button" onClick={() => { HandleClick('%'); }} className="operator">%</button>
