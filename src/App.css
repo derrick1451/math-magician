@@ -1,9 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin: 150px auto;
-  height: 350px;
-  width: 500px;
 }
 
 .wrapper {
@@ -11,8 +8,9 @@
   grid-template-columns: repeat(4, 1fr);
   border: 1px solid rgb(11, 9, 9);
   border-radius: 4px;
-  height: 100%;
-  width: 100%;
+  margin: 80px  auto;
+  height: 350px;
+  width: 500px;
   grid-template-rows: repeat(6, 1fr);
   align-content: center;
 }
@@ -40,4 +38,12 @@
 
 .color-change {
   background-color: rgb(245, 165, 16) !important;
+}
+
+.list-item {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 80%;
+  padding: 1rem;
+  color: rgb(97, 97, 204);
 }
