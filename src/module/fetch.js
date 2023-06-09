@@ -22,7 +22,7 @@ function Apps() {
       setIsLoading(false);
     };
     fetchData();
-  }, []);
+  }, [setData, setIsLoading]);
 
   if (hasError) return <div>Something went wrong!</div>;
 
