@@ -2,13 +2,138 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #fff;
+  font-style: italic;
 }
 
 body {
   display: flex;
+  font-size: 16px;
+  background-color: #475569;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+
+.nav-items {
+  display: flex;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.active {
+  color: rgb(45, 165, 45);
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 4rem;
+  gap: 1.3rem;
+}
+
+.home-page h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.home-page p {
+  font-size: 1.2rem;
+  color: #d1d5db;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  margin: 90px auto;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.container h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid rgb(11, 9, 9);
+  border-radius: 4px;
+  height: 350px;
+  width: 500px;
+  grid-template-rows: repeat(6, 1fr);
+  align-content: center;
+}
+
+.screen {
+  grid-column: 1/-1;
+  text-align: right !important;
+  padding: 1rem !important;
+  font-size: 1.5rem;
+  background-color: rgba(202, 83, 83, 0.703);
+}
+
+.wrapper > button {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  border: 1px solid gainsboro;
+}
+
+.zero {
+  grid-column: 1/3;
+}
+
+.color-change {
+  background-color: rgb(245, 165, 16) !important;
+}
+
+.list-container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
-  background-color: gainsboro;
+  margin: 150px auto;
+  padding: 1.5rem;
+}
+
+.list-item {
+  color: #fff;
+  font-size: 1.5rem;
 }
