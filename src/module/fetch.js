@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function Apps() {
+function Quote() {
   const [data, setData] = useState([]);
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -37,4 +37,4 @@ function Apps() {
   );
 }
 
-export default Apps;
+export default Quote;
