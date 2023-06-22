@@ -1,6 +1,8 @@
+/** @format */
+
 import { Routes, Route } from 'react-router-dom';
-import Calcultor from './module/calculator';
-import Quote from './module/fetch';
+import Calculator from './module/Calculator';
+import Quote from './module/Fetch';
 import Home from './module/Home';
 import NotMatch from './module/noMatch';
 import Layout from './module/Layout';
@@ -10,12 +12,11 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="Calculator" element={<Calcultor />} />
+        <Route path="Calculator" element={<Calculator />} />
         <Route path="Quote" element={<Quote />} />
         <Route path="*" element={<NotMatch />} />
       </Route>
     </Routes>
-
   );
 }
 
