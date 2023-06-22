@@ -6,7 +6,9 @@ import Calculate from './Calculator';
 
 describe('Calculator page component <Calculator />', () => {
   test('Snapshot of the home page', () => {
-    const tree = renderer.create(<Calculate />).toJSON();
+    const component = renderer.create(<Calculate />);
+    const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
+
   });
 });
