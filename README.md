@@ -3,6 +3,7 @@
 - [📖 Math Magician ](#-math-magician-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+    - [Live demo](#live-demo)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -33,6 +34,11 @@
    <summary>nodejs</summary>
 </details>
 
+### Live demo
+[Live Demo](https://math-magician-7wfm.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -51,7 +57,7 @@ In order to run this project you need:
 ### Install
 
 - cd [my-folder]
--[git clone] (https://github.com/derrick1451/math-magician)
+-[git clone] (git@github.com:derrick1451/math-magician.git)
 -cd [repo-name]
 -code .
 
@@ -65,7 +71,7 @@ In order to run this project you need:
 
 👤 **Okongo Derrick**
     
-- GitHub: [@derrick14](https://github.com/derrick14/51)
+- GitHub: [@derrick14](https://github.com/derrick1451)
 - Twitter: [@derrick14](https://twitter.com/DerrickHayle)
 - LinkedIn: [okongo derrick](https://www.linkedin.com/in/okongo-derrick-a0147622b/)
 
