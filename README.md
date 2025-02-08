@@ -21,7 +21,7 @@
 # 📖 Math Magician <a name="about-project"></a>
 
 
-**Math-magicain** this is a single page application implemented with react as a build tool.this app does simple calculation and shows math quotes.
+**Math-magicain** this is a single page application implemented with react as a build tool.this app does simple calculations and shows math quotes.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
