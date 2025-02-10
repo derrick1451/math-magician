@@ -89,7 +89,7 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-I'm open to any suggestions about this project.
+I'm open to any suggestions about this project..
 
 Feel free to check the [issues page](https://github.com/derrick1451/math-magician/issues).
 
