@@ -80,7 +80,7 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **style elements with flex-box and grid**
-- **use an api to fetch data**
+- **use an API to fetch data**
 - **use es6 modules**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
